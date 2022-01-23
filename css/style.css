@@ -48,7 +48,9 @@ div {
   width: 100%;
 }
 
-
+.container-fluid {                    position: fixed;
+  z-index: -1;
+}
 
 footer {
   justify-content: space-between;
@@ -62,10 +64,6 @@ footer {
   margin-top: 45%;
 }
 
-.footerbilder {
-  margin-top: 60%;
-}
-
 a {
   color: black;
 }
@@ -75,7 +73,7 @@ a:hover {
 }
 
 .bg {
-  background-image: url("/img/photo-1509023064510-ac5c5309a352.jpeg");
+  background-image: url("/img/kevin-hackert-jO42qNF3DIQ-unsplash.jpg");
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -87,19 +85,10 @@ body {
   height: 100%;
 }
 
-video {
-  padding-top: 80px;
-  padding-bottom: 5px;
-  display: block;
-  margin: auto;
-}
-
 .top3 {
-  padding-top: 1000px;
   margin-top: 50px;
   margin-bottom: 50px;
   text-align: center;
-  background-color: white;
 }
 
 
@@ -186,4 +175,10 @@ video {
 .rechts {
   text-align: right;
 
+}
+
+main {
+  margin-left: 5%;
+  margin-right: 5%;
+  text-align: center;
 }

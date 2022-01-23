@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Wechselkurs
+    </title>
+    <link rel="shortcut icon" href="../img/planet-erde.png">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
+        integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="../css/style.css">
+</head>
+<body>
+    <header>
+        <div class="row">
+            <div class="col-sm-4">
+                <a href="../index.html">
+                    <img class="logo" width="80" src="../img/planet-erde.png" alt="logo">
+                </a>
+            </div>
+            <div class="col-sm-4">
+                <h1>Wechselkurs</h1>
+            </div>
+            <div class="col-sm-4">
+                <nav>
+                    <ul>
+                        <li> <a href="../index.html">Home</a></li>
+                        <li> <a href="reiseziele.html">Reiseziele</a></li>
+                        <li> <a href="wechselkurs.html">Wechselkurs</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </header>
+    <main>
+        <html>
+        <head>
+            <title>Währungsrechner</title>
+            <meta charset="UTF-8">
+        </head>
+        <body>
+            <main>
+                <section>
+                    <h3>Währung die ich habe</h3>
+                    <p>
+                        <input type="text" id="localAmount" size="15" value="15.0">
+                        <select id="localExchange">
+                            <option value="chf">CHF</option>
+                        </select>
+                    </p>
+                </section>
+                <section class="operation">
+                    <input type="image" alt="Convert from foreign to local" src="../img/icons8-pfeil-nach-links-64.png"
+                        style="width: 7%" onclick=" convert.foreignToLocal();">
+                    <input type="image" alt="Convert from local to foreign" src="../img/icons8-pfeil-64.png"
+                        style="width: 7%" onclick="convert.localToForeign();">
+                </section>
+                <section>
+                    <h3>Währung, die ich will</h3>
+                    <p>
+                        <input type="text" id="foreignAmount" size="15" value="">
+                        <select id="foreignExchange">
+                            <option value="eur">EUR</option>
+                            <option value="usd">USD</option>
+                        </select>
+                    </p>
+                </section>
+                <img src="../img/michael-Wk3P6vL9m40-unsplash.jpg" alt="bellinzona" style="width: 100%">
+            </main>
+            <script src="../js/data.js"></script>
+            <script src="../js/rechner.js"></script>
+        </body>
+
+        </html>
+    </main>
+    <footer>
+        <br>
+        <div class="row">
+            <div class="col-sm-4">
+                <p class="rechts"> Telefon:<a href="tel:079 456 83 49"> 079 456 83 49</a></p>
+            </div>
+            <div class="col-sm-4">
+                <p class="mitte"> Email:<a href="mailto:reiseplan@gmail.ch"> reiseplan@gmail.ch</a> </p>
+            </div>
+            <div class="col-sm-4">
+                <p class="links">Standort: Edenstrasse 20</p>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
